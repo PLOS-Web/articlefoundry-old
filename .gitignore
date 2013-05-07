@@ -4,6 +4,7 @@
 *.so
 
 # Packages
+/venv/
 *.egg
 *.egg-info
 dist
@@ -33,3 +34,7 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# emacs
+*~
+\#*#
