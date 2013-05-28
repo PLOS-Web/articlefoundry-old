@@ -144,8 +144,5 @@ def print_filename(f, ssh_conn):
 def print_done(ssh_conn):
     print("Closing stuff")
 
-#watch_directory(print_filename, watch_dir, 5
 
-with SSHConnection("plosutil04.plos.org", 22, "web") as cnx:
-    watch_remote_directory(cnx, 'test/', lambda s, f: mv_file(s,f,'mv_test'), '.*/p[a-z]{3}\.[0-9]{7}\.zip', 'done', 5, print_done)
 
