@@ -17,6 +17,7 @@ packages = [
 ]
 
 requires = [
+    'paramiko',
 ]
 
 setup(
